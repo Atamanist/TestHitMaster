@@ -15,6 +15,7 @@ public class MoveCharacter : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
+        Time.timeScale = 1;
     }
 
     private void FixedUpdate()
