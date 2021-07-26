@@ -16,4 +16,9 @@ public class RestartLevel : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
+    public void StartMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+
+    }
 }
